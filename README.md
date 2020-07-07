@@ -1,2 +1,2 @@
 # Python-Journey
-This Repository covers entire basics and intermediate level of Python Language
+This Repository covers entire basic and intermediate level of Python Language
