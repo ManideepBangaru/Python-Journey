@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Apr  7 12:46:51 2020
-
-@author: Vanaja
 """
 """
 
