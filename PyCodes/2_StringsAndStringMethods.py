@@ -57,7 +57,7 @@ len("abc")
 
 # other way
 
-word = "Vanaja"
+word = "Manideep"
 len(word)
 
 # len() is used to find the length of the string
@@ -108,8 +108,8 @@ String Concatenation
 Two strings can be combined, or concatenated, using the + operator:
 
 """
-string1 = "Vanaja"
-string2 = "ambika"
+string1 = "Manideep"
+string2 = "Bangaru"
 magic_string = string1 + string2
 print(magic_string)
 
@@ -121,7 +121,7 @@ between two square brackets ([ and ]) immediately after the string
 
 """
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[6])
 
 """
@@ -129,7 +129,7 @@ In Python—and most other programming languages—counting
 always starts at zero. To get the character at the beginning of a string,
 you need to access the character at position 0:
 """
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[0])
 
 # To get last letter of string need to give -1 
@@ -138,28 +138,28 @@ print(name[0])
 V   a   n   a   j   a   m   b   i   k    a
 -11-10 -9  -8  -7  -6  -5  -4  -3  -2   -1
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[-1])
 
 # to print the string in reverse
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[::-1])
 
 # to get the string from 3 rd letter
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[2:])
  
 # we can also get final character using len() 
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 lastletter = len(name)-1
 print(name[lastletter])
 
 # simplest way
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[-1])
 
 
@@ -171,22 +171,22 @@ print(name[-1])
 """ we can access each character by index and
 concatenate them, like this:
 """
-name = "Vanaja"
+name = "Manideep"
 firstthree = name[0] + name[1] + name[2]
 print(firstthree)
 
 """ You can extract a portion of a string, called a substring, by inserting a
 colon between two index numbers inside of square brackets, like this:"""
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[0:3])
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[:3])
 
 # to print the full string
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[:])
 
 # The [0:3] part of name[0:3] is called a slice
@@ -197,7 +197,7 @@ thirteenth and fourteenth characters, which don’t exist. Instead of
 raising an error, the empty string "" is returned.
 """
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name[13:15])
 
 ################################################################################
@@ -272,10 +272,10 @@ you try to assign a new letter to one particular character of a string:
 
 # trying to change the first letter of the word
 
-name = "Vanaja"
+name = "Manideep"
 name[0] = "B"  # which throws an error
     
-name = "Vanu"
+name = "Mani"
 name = "W" + name[1:]
 print(name)    
 
@@ -288,12 +288,12 @@ be used to work with and manipulate strings========
 """
 # To convert a string to all lower case letters, you use the string’s .lower()
 
-name = "VANAJA"
+name = "MANIDEEP"
 print(name.lower())
 
 # To convert a string to all upper case letters, you use the string’s .upper()
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 print(name.upper())
 
 """
@@ -303,7 +303,7 @@ name.upper() or name.lower() returns a new string  "VANAJA"  or "vanaja", which
 is re-assigned to the name variable. This overrides the original string assigned to
 "name".
 """
-name = "VANAJA"
+name = "MANIDEEP"
 name = name.lower()
 print(name)
 
@@ -329,7 +329,7 @@ the length of the name ,  call the len() function directly,
 like this:
 """
 
-name = "Vanajambika"
+name = "ManideepBangaru"
 len(name)
 
 
@@ -348,13 +348,13 @@ from a string:
 3. .strip()
 
 """
-name = "Vanaja Ambika          "
+name = "Manideep Bangaru          "
 print(name.rstrip())    # removes white space from the left side of the string
 
-name = "          Vanaja Ambika"
+name = "          Manideep Bangaru"
 print(name.lstrip())     # removes white space from the right side of the string 
 
-name = "      Vanaja Ambika      "
+name = "      Manideep Bangaru      "
 print(name.strip())     # removes white space from both the sides of the string
 
 
