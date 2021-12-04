@@ -8,7 +8,7 @@ Created on Mon Apr 13 21:35:56 2020
 
 #------------------------------------------ Tuples, Lists, and Dictionaries ------------------------------------------
 """
-A data structure models a collection of data, such as a list of num-bers, a row in a spreadsheet, or a record in a 
+A data structure models a collection of data, such as a list of numbers, a row in a spreadsheet, or a record in a 
 database. Modeling the data that your program interacts with using the right data structure is often the key to writing 
 simple and effective code.
 """
