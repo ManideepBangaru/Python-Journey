@@ -9,8 +9,8 @@ Created on Tue Apr  7 12:07:21 2020
 # addition operation
 # When you write 1+1 and press F9(exectution) the answer is displayed in the right side console
 
-Python first reads the code , evalutes the code and finally output is 
-displayed this loop is called Read-Evaluate-Print-Loop or simply REPL 
+Python first reads the code , evalutes the code and finally output is
+displayed this loop is called Read-Evaluate-Print-Loop or simply REPL
 """
 
 
@@ -22,12 +22,12 @@ displayed this loop is called Read-Evaluate-Print-Loop or simply REPL
 
 print("Hello, World")
 
-""" The code in the file is called is a Script , and files 
+""" The code in the file is called is a Script , and files
 containing Python Scripts are called script files and we should save Python file
 with .py extension"""
 
 # example of syntax error
-# print("Hello , World ) 
+# print("Hello , World )
 """when we execute this we get EOL While scanning string literal error
 EOL means End Of Line error as we missed to end String literal with quotaion marks
 """
@@ -41,7 +41,7 @@ to reference that value throughout your code
 
 Variable names are case-sensitive
 
-Variables can contain uppercase, lowercase letters(A-Z , a-z) and digits(0-9) and 
+Variables can contain uppercase, lowercase letters(A-Z , a-z) and digits(0-9) and
 an under score, but cannot start with Zero"""
 
 # Create a variable and print
@@ -68,9 +68,9 @@ look like humps on a camel
 
 
 In Python, however, it is more common to write variable names in
-snake case like num_students and list_of_names. Every letter is lower￾case, 
+snake case like num_students and list_of_names. Every letter is lower￾case,
 and each word is separated by an underscoreIn Python, however, it is more common
-to write variable names in snake case like num_students and list_of_names. 
+to write variable names in snake case like num_students and list_of_names.
 Every letter is lower￾case, and each word is separated by an underscore
 
 """
